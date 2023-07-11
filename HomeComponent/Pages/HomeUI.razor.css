@@ -1,0 +1,38 @@
+﻿
+.first-parent-container {
+    display : flex ; 
+}
+.right-card-component {
+    max-width : 300px; 
+    max-height: contain ;
+}
+.left-container {
+    display: flex;
+    width: 100%;
+    gap:16px ; 
+    flex-direction: column;
+}
+.scrolling-container {
+    display: flex;
+    width: 100% ;
+}
+.buttons-card-container {
+    display : flex ; 
+    gap: 16px ; 
+    width : 100% ; 
+}
+.card {
+    width : 49% ; 
+}
+.buttons {
+    width : 49% ; 
+}
+.second-parent-container {
+    display : flex ; 
+    width : 100% ; 
+}
+
+
+    
+    
+

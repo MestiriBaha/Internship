@@ -1,0 +1,27 @@
+﻿@page "/"
+<!--this page "/" will make the page the default one -->
+@page "/HomeUI"
+
+<div class="first-parent-container">
+   
+    <div class="left-container">
+        <div class="buttons-card-container">
+            <div class="buttons">
+            <HomeComponent.Shared.HomePage.ButtonsLayout />
+            </div>
+            <div class="card">
+            <HomeComponent.Shared.HomePage.CardLayout />
+            </div>
+        </div>
+        <div class="scrolling-container">
+            <HomeComponent.Shared.HomePage.TileLayout />
+        </div>
+    </div>
+
+     <div class="right-card-component">
+        <HomeComponent.Shared.HomePage.APICardLayout />
+    </div>
+</div>
+<div class="second-parent-container">
+    <HomeComponent.Shared.HomePage.CardsTileLayout/>
+</div>
