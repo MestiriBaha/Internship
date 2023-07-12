@@ -62,3 +62,60 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+.buttons .k-card-header {
+    display: none;
+}
+.CardsTile .k-card-header {
+
+    display: none;
+}
+.CardsTile .k-tilelayout {
+    background-color: #fafafa;
+}
+    .CardsTile .k-tilelayout .k-card {
+        border-width: 6px
+    }
+.CardsTile element.style {
+    gap: 0px 4px;
+}
+.Vignettes .k-tilelayout {
+    background-color: #fafafa;
+}
+.Vignettes .element.style {
+    gap: 0px 4px !important ;
+    padding : 0px 0px !important ;
+}
+.CardsTile .element.style {
+    gap: 0px 4px !important;
+    padding: 0px 0px !important;
+}
+
+.Vignettes .k-tilelayout .k-card {
+    border-width: 2px
+}
+.Card .k-card-body {
+    padding-block : 0px ; 
+}
+.Card .k-tilelayout
+{
+    background-color: #fafafa;
+}
+.Card .k-grid .k-grid-header {
+    border-bottom-width: 1px; 
+}
+.Card .k-tilelayout {
+    background-color: transparent;
+}
+.ApiCard .k-tilelayout {
+    background-color:  transparent;
+}
+.Card .k-card-header {
+    display: none ; 
+}
+Card .k-card-body {
+    padding-inline : 0px !important ; 
+}
+.Card .element.style {
+    gap: 4px;
+    padding: 2px;
+}

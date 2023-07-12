@@ -10,8 +10,7 @@ width : 300px ;
 .left-container {
     display: flex;
     width: calc(100% - 300px);
-    gap:16px ; 
-    flex-direction: column;
+ flex-direction: column;
 }
 .scrolling-container {
     display: flex;

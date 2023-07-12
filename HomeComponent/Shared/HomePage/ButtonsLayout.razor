@@ -1,28 +1,40 @@
-﻿<TelerikTileLayout Columns="2"
-                   RowHeight="1fr"
+﻿<div class="buttons"> 
 
+
+<TelerikTileLayout Columns="2"
+                    
+                   RowHeight="1fr"
+                 
                    Resizable="true"
                    Reorderable="true">
-@*    <TileLayoutItems>
-       <TelerikButton> Button 1 </TelerikButton>
-              <TelerikButton> Button 2 </TelerikButton>
+ <TileLayoutItems>
+ 
+        <TileLayoutItem>
+            <Content><TelerikButton   Class="Button">BUTTON1</TelerikButton></Content>
+        </TileLayoutItem>
+        <TileLayoutItem >
+            <Content><TelerikButton   Class="Button">BUTTON2</TelerikButton></Content>
+        </TileLayoutItem>
+        <TileLayoutItem >
+            <Content><TelerikButton   Class="Button">BUTTON3</TelerikButton></Content>
+        </TileLayoutItem>
+         <TileLayoutItem >
+            <Content><TelerikButton   Class="Button">BUTTON4</TelerikButton></Content>
+        </TileLayoutItem>
 
-                     <TelerikButton> Button 3 </TelerikButton>
-                            <TelerikButton> Button 4 </TelerikButton>
 
-
-    </TileLayoutItems>*@
-    <TelerikTileLayout>
-       <TileLayoutItems>
-           <TelerikButton>
-
-           </TelerikButton>
-        </TileLayoutItems>
-    </TelerikTileLayout>
-      <TelerikTileLayout>
-
-    </TelerikTileLayout>
+    </TileLayoutItems>
+  
 </TelerikTileLayout>
+</div>
+<style>
+    .Button {
+        width:  22rem;
+        background-color: transparent ; 
+        border-color : green ; 
+       
+    }
+</style>
 @code { 
    
 }

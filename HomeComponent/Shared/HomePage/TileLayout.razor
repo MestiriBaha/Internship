@@ -4,10 +4,13 @@
 @code {
     string MyColor { get; set; }
 }
-
+<div class="Vignettes">
+ <h1 style="font-size: medium;
+    margin-bottom: 3rem; margin-top: 1rem;
+    margin-left: 1rem; "> Controles a Realiser</h1>
 <TelerikTileLayout Columns="@numberofColumns" 
                    Class="task-list"
-                   ColumnWidth="10rem"
+                   ColumnWidth="14rem"
                    RowHeight="10rem"
                    Resizable="true"
                    Reorderable="true"
@@ -38,11 +41,13 @@
             }
         </TileLayoutItems>
 </TelerikTileLayout>
+</div>
   <style>
            
             .task-list
             {
-                
+                gap: 1px 5px;
+                padding: 0px 0px;
                  max-width : 1455px  ; 
                 width: 100% ; 
                 overflow-x : auto ; 
@@ -54,9 +59,11 @@
                 background: transparent;  /* Optional: just make scrollbar invisible */
 }
             .task-list > div {
-                aspect-ratio : 1 ; 
+             /*   aspect-ratio : 1 ; */
                 min-width : 160px ; 
             }
+            
+            /* padding: 1px 8px; */"
         </style>
 
 <!--  Headers will be generic !! they depend on the project -->
