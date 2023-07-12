@@ -1,14 +1,15 @@
 ﻿
 .first-parent-container {
     display : flex ; 
+    width : 100% ; 
 }
 .right-card-component {
-    max-width : 300px; 
-    max-height: contain ;
+min-width : 300px ; 
+width : 300px ; 
 }
 .left-container {
     display: flex;
-    width: 100%;
+    width: calc(100% - 300px);
     gap:16px ; 
     flex-direction: column;
 }
@@ -30,8 +31,15 @@
 .second-parent-container {
     display : flex ; 
     width : 100% ; 
+    gap: 16px ; 
+    
 }
-
+.favoris1 {
+    width: 49%;
+}
+.favoris2 {
+    width: 49%;
+}
 
     
     

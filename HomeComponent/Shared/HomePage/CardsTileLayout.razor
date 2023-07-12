@@ -1,10 +1,12 @@
 ﻿
-<div>
 
-<TelerikTileLayout Columns="8"
+
+<TelerikTileLayout Columns="10"
                     Class="task-list1"
-                   RowHeight="100px"
-                   Resizable="true"
+                  ColumnWidth="1fr"
+                   RowHeight="1fr"
+                   Resizable="false"
+                   RowSpacing="1px"
                    Reorderable="true">
     <TileLayoutItems>
         <TileLayoutItem HeaderText="Tile 1">
@@ -33,13 +35,13 @@
         </TileLayoutItem>
     </TileLayoutItems>
 </TelerikTileLayout>
-</div>
+
 
         <style>
            
             .task-list1
             {
-                max-width : 1500px  ; 
+                 max-width : 1455px  ; 
                 /*min-width : 400px  ; */
                 width: 100% ; 
                 overflow-x : auto ; 
@@ -50,8 +52,8 @@
                 width: 0;  /* Remove scrollbar space */
                 background: transparent;  /* Optional: just make scrollbar invisible */
 }
-            .task-list > div {
+            .task-list1 > div {
                 aspect-ratio : 1 ; 
-                min-width : 160px ; 
-            }
+                /*min-width : 160px ; 
+*/            }
         </style>
