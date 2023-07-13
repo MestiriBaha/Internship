@@ -4,22 +4,22 @@
 <TelerikTileLayout Columns="2"
                     
                    RowHeight="1fr"
-                 
+                 Class="test"
                    Resizable="true"
                    Reorderable="true">
  <TileLayoutItems>
  
         <TileLayoutItem>
-            <Content><TelerikButton   Class="Button">BUTTON1</TelerikButton></Content>
+            <Content><a href="#" class="custom-button">Button</a></Content>
         </TileLayoutItem>
         <TileLayoutItem >
-            <Content><TelerikButton   Class="Button">BUTTON2</TelerikButton></Content>
+            <Content><a href="#" class="custom-button">Button</a></Content>
         </TileLayoutItem>
         <TileLayoutItem >
-            <Content><TelerikButton   Class="Button">BUTTON3</TelerikButton></Content>
+            <Content><a href="#" class="custom-button">Button</a></Content>
         </TileLayoutItem>
          <TileLayoutItem >
-            <Content><TelerikButton   Class="Button">BUTTON4</TelerikButton></Content>
+            <Content><a href="#" class="custom-button">Button</a></Content>
         </TileLayoutItem>
 
 
@@ -28,12 +28,33 @@
 </TelerikTileLayout>
 </div>
 <style>
-    .Button {
-        width:  22rem;
-        background-color: transparent ; 
-        border-color : green ; 
-       
+ 
+    
+    .test {
+        background-color: transparent !important; 
     }
+    .content {
+            border: 2px solid green;
+
+    }
+    .custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: transparent;
+   /* border-radius: 50px;*/
+   /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);*/
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  .custom-button:hover {
+    background: green;
+    color: white;
+  }
 </style>
 @code { 
    

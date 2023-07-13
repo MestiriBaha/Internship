@@ -62,6 +62,13 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+/*.buttons .k-tilelayout {
+    background-color: transparent;
+}*/
+.buttons .k-card-body {
+    display : contents !important;
+    /*padding-inline : 0px !important ; */
+}
 .buttons .k-card-header {
     display: none;
 }
@@ -79,7 +86,7 @@ a, .btn-link {
     gap: 0px 4px;
 }
 .Vignettes .k-tilelayout {
-    background-color: #fafafa;
+    background-color: transparent ;
 }
 .Vignettes .element.style {
     gap: 0px 4px !important ;
@@ -112,10 +119,34 @@ a, .btn-link {
 .Card .k-card-header {
     display: none ; 
 }
-Card .k-card-body {
+.Card .k-card-body {
     padding-inline : 0px !important ; 
 }
 .Card .element.style {
     gap: 4px;
     padding: 2px;
 }
+.FavorisHorizon .k-tilelayout {
+    display: flex !important;
+    flex-direction: column;
+    background-color: transparent !important;
+}
+buttons .k-card {
+    border : green ; 
+}
+.FavorisHorizon .k-card-header {
+   border-color: transparent !important ; 
+}
+*/
+.FavorisHorizon .k-tilelayout {
+    display: flex !important;
+    flex-direction: column;
+    background-color: transparent !important;
+}
+
+
+.FavorisHorizon .k-card-header {
+    border-color: transparent !important;
+}
+
+*/
